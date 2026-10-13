@@ -4,6 +4,8 @@ import { SiteHeader } from "@/components/layout/site-header";
 import { AGENTS } from "@/lib/types";
 import { tLocal } from "@/lib/listings";
 
+export const instant = false;
+
 type Props = {
   params: Promise<{ locale: string }>;
 };
@@ -40,7 +42,7 @@ export default async function ContactPage({ params }: Props) {
                       <dt className="text-muted-foreground">{t("phone")}</dt>
                       <dd className="mt-1">
                         <a
-                          className="text-lg hover:text-brand"
+                          className="inline-flex min-h-11 items-center text-lg hover:text-brand"
                           href={`tel:${agent.phone.replace(/\s/g, "")}`}
                         >
                           {agent.phone}
@@ -50,7 +52,10 @@ export default async function ContactPage({ params }: Props) {
                     <div>
                       <dt className="text-muted-foreground">{t("email")}</dt>
                       <dd className="mt-1">
-                        <a className="hover:text-brand" href={`mailto:${agent.email}`}>
+                        <a
+                          className="inline-flex min-h-11 items-center hover:text-brand"
+                          href={`mailto:${agent.email}`}
+                        >
                           {agent.email}
                         </a>
                       </dd>

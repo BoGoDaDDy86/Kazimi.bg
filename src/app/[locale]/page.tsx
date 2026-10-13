@@ -12,6 +12,8 @@ import { getAllOffers } from "@/lib/offers";
 import type { Listing, Offer } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
+export const instant = false;
+
 type Props = {
   params: Promise<{ locale: string }>;
 };

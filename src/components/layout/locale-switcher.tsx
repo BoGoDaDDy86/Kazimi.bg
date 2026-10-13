@@ -1,8 +1,7 @@
 "use client";
 
-import { useLocale } from "next-intl";
-import { useTranslations } from "next-intl";
-import { usePathname, useRouter } from "@/i18n/navigation";
+import { useLocale, useTranslations } from "next-intl";
+import { Link, usePathname } from "@/i18n/navigation";
 import { routing, type AppLocale } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
 
@@ -14,7 +13,6 @@ type LocaleSwitcherProps = {
 export function LocaleSwitcher({ className, tone = "dark" }: LocaleSwitcherProps) {
   const locale = useLocale() as AppLocale;
   const pathname = usePathname();
-  const router = useRouter();
   const t = useTranslations("Locale");
 
   return (
@@ -32,12 +30,12 @@ export function LocaleSwitcher({ className, tone = "dark" }: LocaleSwitcherProps
       {routing.locales.map((loc) => {
         const active = loc === locale;
         return (
-          <button
+          <Link
             key={loc}
-            type="button"
-            onClick={() => router.replace(pathname, { locale: loc })}
+            href={pathname}
+            locale={loc}
             className={cn(
-              "rounded-full px-2.5 py-1 transition-colors",
+              "inline-flex min-h-11 min-w-11 items-center justify-center rounded-full px-3 text-xs font-semibold tracking-wide transition-colors",
               active
                 ? tone === "light"
                   ? "bg-brand text-brand-foreground"
@@ -46,10 +44,11 @@ export function LocaleSwitcher({ className, tone = "dark" }: LocaleSwitcherProps
                   ? "hover:bg-white/15"
                   : "hover:bg-muted",
             )}
+            aria-current={active ? "true" : undefined}
             aria-pressed={active}
           >
             {t(loc)}
-          </button>
+          </Link>
         );
       })}
     </div>

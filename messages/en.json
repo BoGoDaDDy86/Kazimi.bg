@@ -83,8 +83,16 @@
     "lead": "We want people to feel happy and calm through the process. Our mission is to find a place where everyone feels at home.",
     "truth": "We won’t hesitate to tell you the truth — even when you’d rather not hear it — and we will always protect your interest.",
     "closing": "Let’s find the best place for you.",
+    "photoAlt": "Iva Ivanova and Mina Chilova together — the founders of Kazimi Properties",
+    "photoCaption": "Iva and Mina",
+    "follow": "Follow us",
     "ivaRole": "Partner",
     "minaRole": "Partner"
+  },
+  "Social": {
+    "label": "Social media",
+    "facebook": "Kazimi on Facebook",
+    "instagram": "Kazimi on Instagram"
   },
   "Contact": {
     "title": "Contact",

@@ -1,0 +1,101 @@
+{
+  "Meta": {
+    "title": "Kazimi — real estate agency",
+    "description": "Kazimi Properties: apartments for sale and rent in Sofia. Iva and Mina — clear, honest guidance when buying or selling."
+  },
+  "Nav": {
+    "apartments": "Apartments",
+    "offers": "Offers",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Get in touch"
+  },
+  "Locale": {
+    "bg": "BG",
+    "en": "EN",
+    "switchTo": "Language"
+  },
+  "Home": {
+    "brand": "Kazimi",
+    "tagline": "properties",
+    "headline": "A place that feels like home.",
+    "subhead": "Apartments and buy/sell offers — with clarity, calm, and your interest protected at every step.",
+    "ctaPrimary": "Browse apartments",
+    "ctaSecondary": "Buy or sell",
+    "scroll": "Scroll",
+    "servicesTitle": "What we do",
+    "servicesLead": "Buying, selling, and renting — with a team that tells the truth.",
+    "saleTitle": "Sales",
+    "saleText": "We prepare the home, find buyers, and guide negotiations to closing.",
+    "rentTitle": "Rentals",
+    "rentText": "We match tenants and contracts so both sides stay calm.",
+    "buyTitle": "Purchases",
+    "buyText": "We search with you, cut the noise, and protect your interest.",
+    "featuredTitle": "Featured apartments",
+    "featuredLead": "Current homes in Sofia.",
+    "viewAll": "All apartments",
+    "offersTitle": "Buy / sell offers",
+    "offersLead": "Short client briefs — let’s see if there’s a match.",
+    "viewOffers": "All offers",
+    "aboutTitle": "We are Iva and Mina",
+    "aboutLead": "A long friendship and a love of people. We built KAZIMI to make buying, selling, renting, or leasing simpler.",
+    "aboutCta": "More about us"
+  },
+  "Listings": {
+    "title": "Apartments",
+    "lead": "For sale and for rent — filter by deal type.",
+    "all": "All",
+    "sale": "For sale",
+    "rent": "For rent",
+    "emptyTitle": "No listings right now",
+    "emptyText": "Add a new file in content/listings or clear the filter.",
+    "errorTitle": "Couldn’t load listings",
+    "errorText": "Please try again in a moment.",
+    "loading": "Loading listings…",
+    "rooms": "{count, plural, one {# room} other {# rooms}}",
+    "area": "{value} m²",
+    "floor": "Floor {value}",
+    "perMonth": "/ mo",
+    "details": "Details",
+    "back": "Back to apartments",
+    "features": "Features",
+    "contactAgent": "Contact the agent",
+    "notFound": "Listing not found",
+    "priceOnRequest": "Price on request"
+  },
+  "Offers": {
+    "title": "Offers",
+    "lead": "Buy and sell briefs — separate from the apartment catalog.",
+    "all": "All",
+    "buy": "Buying",
+    "sell": "Selling",
+    "emptyTitle": "No active offers",
+    "emptyText": "Add a JSON file in content/offers.",
+    "errorTitle": "Failed to load",
+    "errorText": "Please try again.",
+    "loading": "Loading…",
+    "budget": "Budget",
+    "location": "Location",
+    "contact": "Enquire"
+  },
+  "About": {
+    "title": "About Kazimi",
+    "lead": "We want people to feel happy and calm through the process. Our mission is to find a place where everyone feels at home.",
+    "truth": "We won’t hesitate to tell you the truth — even when you’d rather not hear it — and we will always protect your interest.",
+    "closing": "Let’s find the best place for you.",
+    "ivaRole": "Partner",
+    "minaRole": "Partner"
+  },
+  "Contact": {
+    "title": "Contact",
+    "lead": "Call or write — we’ll get back to you quickly.",
+    "iva": "Iva Ivanova",
+    "mina": "Mina Chilova",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "Footer": {
+    "tagline": "Real estate agency · Sofia",
+    "rights": "© {year} Kazimi Properties"
+  }
+}

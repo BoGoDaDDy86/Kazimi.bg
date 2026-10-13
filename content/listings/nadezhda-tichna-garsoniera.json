@@ -1,0 +1,32 @@
+{
+  "slug": "nadezhda-tichna-garsoniera",
+  "status": "published",
+  "type": "rent",
+  "price": 420,
+  "currency": "EUR",
+  "area": 38,
+  "rooms": 1,
+  "floor": 2,
+  "city": { "bg": "София", "en": "Sofia" },
+  "neighborhood": { "bg": "Надежда 3", "en": "Nadezhda 3" },
+  "title": {
+    "bg": "Тиха гарсониера под наем в Надежда",
+    "en": "Quiet studio for rent in Nadezhda"
+  },
+  "summary": {
+    "bg": "Компактна, чиста и добре изолирана — за студент или млад професионалист.",
+    "en": "Compact, clean, and well insulated — for a student or young professional."
+  },
+  "description": {
+    "bg": "Едно помещение с кухненски бокс, баня и балкон към вътрешен двор. Ново боядисване, нови уреди. Наблизо има спирка и магазини.",
+    "en": "One room with kitchenette, bathroom, and a balcony facing the courtyard. Fresh paint and new appliances. Transit and shops nearby."
+  },
+  "features": {
+    "bg": ["Балкон", "Нови уреди", "Тих двор", "Добра изолация"],
+    "en": ["Balcony", "New appliances", "Quiet courtyard", "Good insulation"]
+  },
+  "images": ["/listings/nadezhda-1.jpg"],
+  "agent": "mina",
+  "featured": false,
+  "publishedAt": "2026-10-01"
+}

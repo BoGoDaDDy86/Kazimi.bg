@@ -1,0 +1,32 @@
+{
+  "slug": "lozenets-svetla-3staen",
+  "status": "published",
+  "type": "sale",
+  "price": 285000,
+  "currency": "EUR",
+  "area": 98,
+  "rooms": 3,
+  "floor": 5,
+  "city": { "bg": "София", "en": "Sofia" },
+  "neighborhood": { "bg": "Лозенец", "en": "Lozenets" },
+  "title": {
+    "bg": "Светъл тристаен в Лозенец с тераса",
+    "en": "Bright three-room apartment in Lozenets with terrace"
+  },
+  "summary": {
+    "bg": "Южно изложение, обновена кухня и тих двор — близо до Южен парк.",
+    "en": "South-facing, refreshed kitchen and a quiet courtyard — near South Park."
+  },
+  "description": {
+    "bg": "Апартаментът е разпределен на дневна с кухня, две спални, баня с тоалетна и просторна тераса. Сградата е след 2000 г., с асансьор и контролиран достъп. Идеален за семейство, което търси спокойствие без да се отдалечава от центъра.",
+    "en": "The layout includes a living room with kitchen, two bedrooms, a bathroom, and a generous terrace. The building dates after 2000, with an elevator and controlled access. Ideal for a family seeking calm without leaving the city core."
+  },
+  "features": {
+    "bg": ["Тераса", "Асансьор", "Южно изложение", "Обновена кухня"],
+    "en": ["Terrace", "Elevator", "South-facing", "Updated kitchen"]
+  },
+  "images": ["/listings/lozenets-1.jpg"],
+  "agent": "iva",
+  "featured": true,
+  "publishedAt": "2026-09-12"
+}

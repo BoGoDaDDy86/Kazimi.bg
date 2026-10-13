@@ -1,0 +1,32 @@
+{
+  "slug": "centar-dvustaen-naem",
+  "status": "published",
+  "type": "rent",
+  "price": 950,
+  "currency": "EUR",
+  "area": 68,
+  "rooms": 2,
+  "floor": 3,
+  "city": { "bg": "София", "en": "Sofia" },
+  "neighborhood": { "bg": "Център", "en": "City Center" },
+  "title": {
+    "bg": "Уютен двустаен под наем в центъра",
+    "en": "Cozy two-room rental in the city center"
+  },
+  "summary": {
+    "bg": "Обзаведен, готов за нанасяне, на пешеходно разстояние от метро и офиси.",
+    "en": "Furnished and move-in ready, walking distance to metro and offices."
+  },
+  "description": {
+    "bg": "Светла дневна, отделна спалня, баня с вана и компактна кухня. Включено е основно обзавеждане и климатик. Подходящ за професионалисти или двойка. Минимален срок на договора: 12 месеца.",
+    "en": "Bright living room, separate bedroom, bathroom with tub, and a compact kitchen. Includes essential furniture and air conditioning. Suited to professionals or a couple. Minimum lease: 12 months."
+  },
+  "features": {
+    "bg": ["Обзаведен", "Климатик", "Близо до метро", "Готов за нанасяне"],
+    "en": ["Furnished", "Air conditioning", "Near metro", "Move-in ready"]
+  },
+  "images": ["/listings/center-1.jpg"],
+  "agent": "mina",
+  "featured": true,
+  "publishedAt": "2026-09-28"
+}

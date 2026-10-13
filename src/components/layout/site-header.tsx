@@ -6,6 +6,7 @@ import { Menu, X } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { KazimiLogo } from "@/components/brand/kazimi-logo";
 import { LocaleSwitcher } from "@/components/layout/locale-switcher";
+import { SocialLinksClient } from "@/components/layout/social-links-client";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -67,7 +68,8 @@ export function SiteHeader({ transparent = false }: SiteHeaderProps) {
           ))}
         </nav>
 
-        <div className="hidden items-center gap-3 md:flex">
+        <div className="hidden items-center gap-2 md:flex">
+          <SocialLinksClient tone={transparent ? "light" : "dark"} />
           <LocaleSwitcher tone={transparent ? "light" : "dark"} />
           <Link
             href="/contact"
@@ -135,6 +137,7 @@ export function SiteHeader({ transparent = false }: SiteHeaderProps) {
                 >
                   {t("cta")}
                 </Link>
+                <SocialLinksClient className="mt-6" />
               </nav>
             </div>
           </details>

@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { KazimiLogo } from "@/components/brand/kazimi-logo";
+import { SocialLinks } from "@/components/layout/social-links";
 
 export async function SiteFooter() {
   const t = await getTranslations("Footer");
@@ -13,6 +14,7 @@ export async function SiteFooter() {
             <KazimiLogo tone="brand" />
           </Link>
           <p className="mt-4 max-w-sm text-sm text-white/65">{t("tagline")}</p>
+          <SocialLinks tone="brand" className="mt-5" />
         </div>
         <p className="text-sm text-white/45">{t("rights", { year: 2026 })}</p>
       </div>

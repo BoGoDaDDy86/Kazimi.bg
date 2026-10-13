@@ -1,0 +1,20 @@
+{
+  "slug": "kupuvam-lozenets-2-3",
+  "status": "published",
+  "side": "buy",
+  "budgetMin": 180000,
+  "budgetMax": 240000,
+  "currency": "EUR",
+  "city": { "bg": "София", "en": "Sofia" },
+  "neighborhood": { "bg": "Лозенец / Изток", "en": "Lozenets / Iztok" },
+  "title": {
+    "bg": "Търся 2–3 стаен до Южен парк",
+    "en": "Looking for 2–3 rooms near South Park"
+  },
+  "summary": {
+    "bg": "Семейство с дете търси светъл апартамент, за предпочитане с тераса. Готови за бърза сделка при подходящ имот.",
+    "en": "A family with a child wants a bright apartment, preferably with a terrace. Ready for a quick deal if the home fits."
+  },
+  "agent": "iva",
+  "publishedAt": "2026-10-05"
+}

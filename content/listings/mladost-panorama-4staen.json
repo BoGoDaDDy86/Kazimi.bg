@@ -1,0 +1,32 @@
+{
+  "slug": "mladost-panorama-4staen",
+  "status": "published",
+  "type": "sale",
+  "price": 320000,
+  "currency": "EUR",
+  "area": 124,
+  "rooms": 4,
+  "floor": 8,
+  "city": { "bg": "София", "en": "Sofia" },
+  "neighborhood": { "bg": "Младост 2", "en": "Mladost 2" },
+  "title": {
+    "bg": "Панорамен четиристаен в Младост 2",
+    "en": "Panoramic four-room apartment in Mladost 2"
+  },
+  "summary": {
+    "bg": "Високи етажи, две бани и паркомясто в гараж — за по-голямо семейство.",
+    "en": "High floor, two bathrooms and a garage parking space — for a growing family."
+  },
+  "description": {
+    "bg": "Широка дневна с изглед към Витоша, три спални, две бани и отделна тоалетна. Има маза и паркомясто. Сградата е с контролиран достъп и добро управление.",
+    "en": "A wide living room with Vitosha views, three bedrooms, two bathrooms, and a separate WC. Includes a cellar and parking. Controlled access and solid building management."
+  },
+  "features": {
+    "bg": ["Паркомясто", "Две бани", "Изглед Витоша", "Маза"],
+    "en": ["Parking space", "Two bathrooms", "Vitosha view", "Cellar"]
+  },
+  "images": ["/listings/mladost-1.jpg"],
+  "agent": "iva",
+  "featured": true,
+  "publishedAt": "2026-08-20"
+}

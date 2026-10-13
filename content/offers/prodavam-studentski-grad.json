@@ -1,0 +1,20 @@
+{
+  "slug": "prodavam-studentski-grad",
+  "status": "published",
+  "side": "sell",
+  "budgetMin": null,
+  "budgetMax": 165000,
+  "currency": "EUR",
+  "city": { "bg": "София", "en": "Sofia" },
+  "neighborhood": { "bg": "Студентски град", "en": "Studentski Grad" },
+  "title": {
+    "bg": "Продавам двустаен в Студентски град",
+    "en": "Selling a two-room apartment in Studentski Grad"
+  },
+  "summary": {
+    "bg": "Собственикът търси агенция за подготовка, снимки и преговори. Имотът е свободен.",
+    "en": "The owner wants an agency for staging, photos, and negotiations. The unit is vacant."
+  },
+  "agent": "mina",
+  "publishedAt": "2026-09-18"
+}

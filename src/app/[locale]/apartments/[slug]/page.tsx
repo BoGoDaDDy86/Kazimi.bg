@@ -15,6 +15,8 @@ import {
 import { AGENTS } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
+export const instant = false;
+
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
 };
@@ -58,7 +60,8 @@ export default async function ListingDetailPage({ params }: Props) {
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <Link
             href="/apartments"
-            className="text-sm text-muted-foreground hover:text-foreground"
+            data-back-link
+            className="inline-flex min-h-11 items-center py-2 text-sm text-muted-foreground hover:text-foreground"
           >
             ← {t("back")}
           </Link>
@@ -129,14 +132,14 @@ export default async function ListingDetailPage({ params }: Props) {
                 </p>
                 <a
                   href={`tel:${agent.phone.replace(/\s/g, "")}`}
-                  className="mt-3 block text-sm hover:text-brand"
+                  className="mt-3 inline-flex min-h-11 items-center text-sm hover:text-brand"
                 >
                   {agent.phone}
                 </a>
                 <a
                   href={`mailto:${agent.email}`}
                   className={cn(
-                    buttonVariants(),
+                    buttonVariants({ size: "lg" }),
                     "mt-5 w-full bg-brand text-brand-foreground hover:bg-brand/90",
                   )}
                 >
